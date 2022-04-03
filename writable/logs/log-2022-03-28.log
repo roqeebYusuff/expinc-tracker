@@ -1,0 +1,12 @@
+CRITICAL - 2022-03-28 22:25:15 --> Undefined variable $message
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Views\auth\signin.php(72): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 72)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Common.php(1097): CodeIgniter\View\View->render('auth/signin', Array, true)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Home.php(9): view('auth/signin')
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

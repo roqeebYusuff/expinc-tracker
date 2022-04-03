@@ -1,0 +1,201 @@
+CRITICAL - 2022-04-03 01:14:58 --> Undefined array key "email"
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->forgotpassword()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-03 01:15:49 --> Undefined array key "email"
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->forgotpassword()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-03 01:15:58 --> Undefined array key "email"
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->forgotpassword()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-03 01:16:24 --> Undefined array key "email"
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->forgotpassword()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-03 01:18:00 --> Undefined array key "email"
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 21)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->forgotpassword()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-03 01:18:17 --> Unknown column 'email' in 'where clause'
+CRITICAL - 2022-04-03 01:18:17 --> Unknown column 'email' in 'where clause'
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(22): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->forgotpassword()
+#8 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#9 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-04-03 01:29:52 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-04-03 01:39:02 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-04-03 02:14:58 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-04-03 02:25:58 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-04-03 02:39:30 --> hash(): Argument #1 ($algo) must be a valid hashing algorithm
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(30): hash('sha236', 'd236956a13b9843...')
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->forgotpassword()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-04-03 02:40:13 --> hash(): Argument #1 ($algo) must be a valid hashing algorithm
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(30): hash('sha236', 'de3204f2fb6a258...')
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->forgotpassword()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-03 02:41:04 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-04-03 02:51:24 --> Call to undefined function App\Controllers\NOW()
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-04-03 02:52:29 --> Unknown column 'expires' in 'where clause'
+CRITICAL - 2022-04-03 02:52:29 --> Unknown column 'expires' in 'where clause'
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#8 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#9 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-04-03 03:19:18 --> Too few arguments to function App\Controllers\Reset::resetpass(), 0 passed in C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-03 04:39:03 --> Call to undefined function App\Controllers\NOW()
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-04-03 04:39:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `password_reset`.`deleted_at` IS NULL' at line 4
+CRITICAL - 2022-04-03 04:39:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `password_reset`.`deleted_at` IS NULL' at line 4
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(56): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#8 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#9 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-04-03 04:47:49 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::findAll()
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-03 04:48:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-03 04:48:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-03 04:48:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::get()
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-04-03 04:51:49 --> Deletes are not allowed unless they contain a "where" or "like" clause.
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(64): CodeIgniter\BaseModel->delete(Array)
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-04-03 04:53:11 --> Undefined array key 0
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-03 05:18:35 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+CRITICAL - 2022-04-03 05:19:18 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\Query.php(324): implode(',', Array)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\Query.php(304): CodeIgniter\Database\Query->matchNamedBinds('UPDATE `passwor...', Array)
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `passwor...', Array, false)
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Model.php(356): CodeIgniter\Database\BaseBuilder->update(Array)
+#6 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\BaseModel.php(963): CodeIgniter\Model->doDelete(Array, false)
+#7 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(58): CodeIgniter\BaseModel->delete(Array)
+#8 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#9 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#10 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+CRITICAL - 2022-04-03 05:22:30 --> Array to string conversion
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Reset.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 58)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Reset->resetpass()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Reset))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-04-03 08:39:10 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-04-03 08:45:28 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 
+ERROR - 2022-04-03 08:50:35 --> Email: sendWithSmtp throwed fsockopen(): php_network_getaddresses: getaddrinfo failed: No such host is known. 

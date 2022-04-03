@@ -1,0 +1,126 @@
+CRITICAL - 2022-03-31 00:25:09 --> Call to undefined method App\Models\Income::getResultArray
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(22): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchData()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 00:27:00 --> Call to undefined method App\Models\Income::getResultArray
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(22): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchData()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 00:27:01 --> Call to undefined method App\Models\Income::getResultArray
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(22): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchData()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 00:27:02 --> Call to undefined method App\Models\Income::getResultArray
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(22): CodeIgniter\Model->__call('getResultArray', Array)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchData()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 00:27:42 --> Array to string conversion
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchData()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 01:47:25 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\View\View.php(214): include()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Common.php(1097): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(20): view('index', Array)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-31 01:47:44 --> Too few arguments to function App\Controllers\Dashboard::fetchData(), 0 passed in C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchData()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 01:48:10 --> Too few arguments to function App\Controllers\Dashboard::fetchData(), 0 passed in C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchData()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 17:27:16 --> Too few arguments to function App\Controllers\Dashboard::deleteEntry(), 0 passed in C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->deleteEntry()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+CRITICAL - 2022-03-31 17:53:31 --> Array to string conversion
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchIcome()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 17:53:52 --> Array to string conversion
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchIcome()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 17:54:06 --> Array to string conversion
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchIcome()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-31 17:54:27 --> Array to string conversion
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 29)
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchIcome()
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-31 19:48:37 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-03-31 19:48:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Models\Categories.php(44): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\Codeigniter Projects\sales-management\app\Controllers\Dashboard.php(19): App\Models\Categories->get_categories()
+#6 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->index()
+#7 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-31 22:44:16 --> Too few arguments to function App\Controllers\Dashboard::fetchIncome(), 0 passed in C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(824): App\Controllers\Dashboard->fetchIncome()
+#1 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeigniter Projects\sales-management\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeigniter Projects\sales-management\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
