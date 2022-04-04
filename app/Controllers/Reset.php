@@ -83,9 +83,10 @@ class Reset extends BaseController
         $email->setTo($data['email']);
 
         $email->setSubject('Password Recovery - Expinc Tracker');
+        $url =  base_url();
 
-        $html = '<h3>Hello,</h3> <br /><p>We are sending you this email because you requested a password reset. Click on th button to create a new password</p> <br />
-            <a href="'.base_url().'auth/reset-password/'.$data['token'].'">Reset Password</a> <br /> <p>This link will expire in 1 hour. After that, you will need to submit a new request in order to reset your password <br/> <p><b>NOTE:</b> The link wiil still be still be valid within one hour until it is clicked</p> If you did not request a password reset, you can simply ignore this email. Your password will not be changed</p>
+        $html = '<h3>Hello,</h3> <p>We are sending you this email because you requested a password reset. Click on th button to create a new password</p> <br />
+            <a href="'.$url.'/auth/reset-password/'.$data['token'].'">Reset Password</a> <br /> <p>This link will expire in 1 hour. After that, you will need to submit a new request in order to reset your password <br/> <p><b>NOTE:</b> The link wiil still be still be valid within one hour until it is clicked</p> If you did not request a password reset, you can simply ignore this email. Your password will not be changed</p>
             <br/> <br /> <p>Thanks,</p> <span>Expinc Tracker</span>
             ';
         $email->setMessage($html);

@@ -17,7 +17,7 @@
         <section id="auth">
             <div class="container-fluid">
                 <div class="wrapper min-vh-100 d-flex align-items-center justify-content-center">
-                    <div class="card col-lg-5 col-md-7 col-sm-8 col-8">
+                    <div class="card col-lg-5 col-md-7">
                         <h2 class="brand-logo text-center"><i class="fas fa-gauge-med"></i> expInc tracker</h2>
                         <div class="mt-2">
                             <h5 class="p-0 m-0">Forgot Password</h5>
